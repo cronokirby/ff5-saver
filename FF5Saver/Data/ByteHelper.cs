@@ -28,7 +28,6 @@ namespace FF5Saver.Data
 
         public static uint GetTriple(byte[] array, int start)
         {
-            Console.WriteLine("foo");
             // bytes are little endian
             byte[] buff = Slice(array, start, start + 3);
             return buff[2] << 16 + buff[1] << 8 + buff[0];
