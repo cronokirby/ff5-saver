@@ -33,14 +33,13 @@ namespace FF5Saver.Data
 
         public Character(byte[] characterData)
         {
-            Level = 200;
-            /*Job = (Jobs)characterData[1];
+            Job = (Jobs)characterData[1];
             Level = characterData[2];
             Exp = ByteHelper.GetTriple(characterData, 3);
             CurrentHP = ByteHelper.GetWord(characterData, 6);
             MaxHP = ByteHelper.GetWord(characterData, 8);
             CurrentMP = ByteHelper.GetWord(characterData, 0x0A);
-            MaxMP = ByteHelper.GetWord(characterData, 0x0C);*/
+            MaxMP = ByteHelper.GetWord(characterData, 0x0C);
         }
     }
 }

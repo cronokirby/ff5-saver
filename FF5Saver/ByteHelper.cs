@@ -28,10 +28,9 @@ namespace FF5Saver.Data
 
         public static uint GetTriple(byte[] array, int start)
         {
-            Console.WriteLine("foo");
-            // bytes are little endian
-            byte[] buff = Slice(array, start, start + 3);
-            return buff[2] << 16 + buff[1] << 8 + buff[0];
+            // this corrects for the extra 4th byte
+            byte[] buff = Slice(array, start, start + 4, !BitConverter.IsLittleEndian);
+            return (uint)((buff[0] << 16) + (buff[1] << 8) + buff[2]);
         }
     }
 }
