@@ -48,6 +48,7 @@
     <Compile Include="Data\ByteReader.cs" />
     <Compile Include="Data\Character.cs" />
     <Compile Include="Data\Equipment.cs" />
+    <Compile Include="Data\Inventory.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

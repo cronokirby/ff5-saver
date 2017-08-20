@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Data\ByteReaderTests.cs" />
     <Compile Include="Data\CharacterTests.cs" />
+    <Compile Include="Data\EquipmentTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

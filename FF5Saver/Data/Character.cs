@@ -29,6 +29,8 @@ namespace FF5Saver.Data
 
         public ushort MaxMP { get; set; }
 
+        public Equipment Equipment { get; set; }
+
         public Character(ByteReader characterData)
         {
             Job = (Jobs)characterData.Byte();
@@ -38,6 +40,7 @@ namespace FF5Saver.Data
             MaxHP = characterData.Word();
             CurrentMP = characterData.Word();
             MaxMP = characterData.Word();
+            Equipment = new Equipment(characterData);
         }
     }
 }

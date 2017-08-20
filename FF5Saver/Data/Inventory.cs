@@ -1,0 +1,77 @@
+﻿using System;
+
+namespace FF5Saver.Data
+{
+    public enum Items
+    {
+        Nothing0, Empty, Knife, Dagger,
+        Mythril_Knife, Kunai, Mage_Masher, Guardian,
+        Kodachi, OrialconDirk, Air_Knife, Assassins_Dagger,
+        Hardened, Broadsword, Regal_Cut, Mythril_Sword,
+        Coral_Sword, Ancient_Sword, Epee, Slumber_Sword,
+        Defender_Sword, Excalibur, Ragnarok, Javelin,
+        Spear, Mythril_Spear, Trident, Wind_Spear,
+        Partisan, Gugnir, Twin_Lance, Holy_Lance,
+        Dragon_Lance, Battle_Axe, Mythril_Hammer, Ogre_Killer,
+        War_Hammer, Venom_Axe, Earth_Hammer, Rune_Axe,
+        Thors_Hammer, Katana, Air_Blade, Kotetsu,
+        Bizen, Forged, Murasame, Masamune,
+        Tempest, Rod, Fire_Rod, Ice_Rod, Thunder_Rod,
+        Venom_Rod, Lilith_Rod, Wizard_Rod, Staff,
+        Mytrhil_Staff, Power_Staff, Healing_Staff, Staff_of_Light,
+        Sages_Staff, Judgement_Staff, Flame_Bow, Frost_Bow,
+        Thunder_Bow, Darkness_Bow, Killer_Bow, Elven_Bow,
+        Yoichis_Bow, Artemis_Bow, Silver_Harp, Dream_Harp,
+        Lamias_Harp, Apollos_Harp, Whip, Chain_Whip,
+        Thunder_Whip, Flame_Whip, Dragons_Whisker, Giyaman,
+        Earth_Bell, Rune_Chime, Tinkerbell, Sabre,
+        Drain_Sword, Rune_Edge, Flametongue, Icebrand,
+        Full_Moon, Shuriken, Fuuma_Shuriken, Excalipoor,
+        Beast_Killer, Flail, Morning_Star, Wonder_Wand,
+        Brave_Blade, Soot, Chicken_Knife, Rising_Sun,
+        Silve_Bow, Gale_Bow, AntiMagic_Bow, Avis_Killer,
+        Doomcut, Giants_Axe, Man_Eater, Thief_Knife,
+        Dancing_Dagger, Enhancer, L_Hand, R_Hand,
+        Item00, Item01, Item02, Item03,
+        Item04, Item05, Item06, Item07,
+        Item08, Item09, Item0A, Item0B,
+        Item0C, Item0D, Item0E, Nothing1,
+        Leather_Shield, Bronze_Shield, Iron_Shield, Mythril_Shield,
+        Golden_Shield, Aegis_Shield, Diamond_Shield, Crystal_Shield,
+        Leather_Cap, Bronze_Helm, Iron_Helm, Mythril_Helm,
+        Gold_Helm, Diamond_Helm, Crystal_Helm, Plumed_Hat,
+        Tricorn_Hat, Magus, Circlet, Gold_Hairpin,
+        Ribbon, Bandana, Green_Beret, Dark_Hood,
+        Lamias_Tiara, Leather_Armor, Bronze_Armor, Iron_armor,
+        Mythril_Armor, Golden_Armor, Diamond_Armor, Crystal_Armor,
+        Copper_Plate, Training_Suit, Silver_Plate, Stealth_Suit,
+        Diamond_Plate, DarkSuit, Cotton_Robe, Silk_Robe,
+        Gaia_Gear, Bards_Surplice, Lumina_Robe, Black_Robe,
+        White_Robe, Mirage_Vest, Guard_Ring, Thiefs_Glove,
+        Giants_Glove, Elf_Cape, Cursed_Ring, Glasses,
+        Running_Shoes, Mythril_Glove, Silver_Armlet, Diamond_Armlet,
+        Strength_Sash, Power_Wrist, Angel_Gown, Angel_Ring,
+        Flame_Ring, Coral_Ring, Bone_Mail, Leather_Shoes,
+        Kaiser_Knuckles, Gauntlet, Tiger_Mask, Flame_Shield,
+        Conago_Jar, Genji_Shield, Genji_Armor, Genji_Gloves,
+        Wall_Ring, Coronet, Thornlet, Ice_Shield,
+        Cursed_Shield, Rainbow_Dress, Red_Slippers, Item10,
+        Item11, Item12, Item13, Item14,
+        Item15, Item16, Item17, Item18,
+        Item19, Item1A, Item1B, Item1C,
+        Item1D, Item1E, Potion, HiPotion,
+        Ether, Elixir, Phoenix_Down, Maidens_Kiss,
+        Holy_Water, Turtle_Shell, Antidote, Eyedrop,
+        Dragon_Fang, Dark_Matter, Soft, LuckMallet,
+        Dummy, Magic_Lamp, Tent, Cottage,
+        Giant_Drink, Power_Drink, Speed_Drink, Protect_Drink,
+        Hero_Drink, Dragon_Crest, Omega_Medal, Ramuh,
+        Shoat, Golem, Flame_Scroll, Water_Scroll,
+        Thunder_Scroll, Final_Fantasy
+    }
+
+    class Inventory
+    {
+        
+    }
+}
