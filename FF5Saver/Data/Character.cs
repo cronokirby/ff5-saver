@@ -29,17 +29,15 @@ namespace FF5Saver.Data
 
         public ushort MaxMP { get; set; }
 
- 
-
-        public Character(byte[] characterData)
+        public Character(ByteReader characterData)
         {
-            Job = (Jobs)characterData[1];
-            Level = characterData[2];
-            Exp = ByteHelper.GetTriple(characterData, 3);
-            CurrentHP = ByteHelper.GetWord(characterData, 6);
-            MaxHP = ByteHelper.GetWord(characterData, 8);
-            CurrentMP = ByteHelper.GetWord(characterData, 0x0A);
-            MaxMP = ByteHelper.GetWord(characterData, 0x0C);
+            Job = (Jobs)characterData.Byte();
+            Level = characterData.Byte();
+            Exp = characterData.Triple();
+            CurrentHP = characterData.Word();
+            MaxHP = characterData.Word();
+            CurrentMP = characterData.Word();
+            MaxMP = characterData.Word();
         }
     }
 }

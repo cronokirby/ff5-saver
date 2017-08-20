@@ -56,8 +56,8 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="ByteHelperTests.cs" />
-    <Compile Include="CharacterTests.cs" />
+    <Compile Include="Data\ByteReaderTests.cs" />
+    <Compile Include="Data\CharacterTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
