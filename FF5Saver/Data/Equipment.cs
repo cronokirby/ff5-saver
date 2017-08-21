@@ -1,7 +1,10 @@
 ﻿using System;
 
 namespace FF5Saver.Data
-{
+{   
+    /// <summary>
+    /// Represents a full set of equipment for a Character.
+    /// </summary>
     public class Equipment
     {  
         public Items Helmet { get; set; }
